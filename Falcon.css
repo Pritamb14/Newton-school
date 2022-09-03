@@ -38,10 +38,11 @@ ul {
   margin: 0 30px;
 }
 
-header {
+section {
   width: 100vw;
   height: 100vh;
   background-image: url("./image/doctorclinic.jpg");
+  background-attachment: fixed;
   background-position: bottom;
   background-size: cover;
   display: flex;
@@ -81,4 +82,60 @@ header {
   font-size: 15px;
   font-weight: bold;
   color: rgb(183, 74, 74);
+}
+
+.parallaxtwo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./image/remote-patient-monitoring-hospital-er.png");
+  background-attachment: fixed;
+  <image src="/image/remote-patient-monitoring-hospital-"></image>
+  background-position: bottom;
+  background-size: 100% 100%;
+  border: 1px solid;
+}
+.parallaxtwo h2 {
+  position: relative;
+  left: 600px;
+  top: 300px;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.nav-links {
+  font-weight: bold;
+  font-size: 18px;
+  left: 100px;
+}
+.parallaxthree {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./image/Doctors.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 100% 100%;
+  border: 1px solid;
+}
+.parallaxthree h2 {
+  position: relative;
+  left: 600px;
+  top: 50px;
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.nav-panel {
+  font-weight: bold;
+  font-size: 15px;
+  top: 150px;
+  left: 80px;
+  position: relative;
 }
