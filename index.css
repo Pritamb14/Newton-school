@@ -1,141 +1,168 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  ul {
+    list-style: none;
+  }
+  .active {
+    color: crimson;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .logo {
+    font-size: 60px;
+    margin:2px;
+    padding: 1px 5px;
+    color: rgb(253, 253, 253);
+    background:linear-gradient(rgba(255,0,0,0), rgba(255,0,0,1));
+  }
+  
+  .navbar {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    font-size: 18px;
+    width: 98%;
+    justify-content: space-between;
+    padding: 12px;
+    color: whitesmoke;
+  }
+  #services{
+    font-size: 15px;
+    background-color:rgb(239, 239, 239);
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    width: 59%;
+    text-decoration: underline;
+    background-color: rgb(162, 161, 161);
+  }
+  .nav-links li {
+    margin: 0 30px;
+  }
+  
+  section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/UFH-hospital-canteen-2000x1125.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .header-content {
+    margin-bottom: 100px;
+    color: rgb(18, 11, 11);
+    text-align: center;
+  }
+  .header-content h2 {
+    font-size: 4vmin;
+  }
+  .line {
+    width: 30%;
+    height: 4px;
+    background: crimson;
+    margin: 2px auto;
+    border-radius: 5px;
+  }
+  .header-content h1 {
+    font-size: 6vmin;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color:rgb(0, 0, 0)
+  }
+  .ctn {
+    color: crimson;
+    font-weight: bold;
+    size: 25px;
+  }
+  
+  .btn {
+    margin: 0px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(183, 74, 74);
+    background-color: rgb(45, 44, 44);
+  }
+  
+  .parallaxtwo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/remote-patient-monitoring-hospital-er.png");
+    background-attachment: fixed;
+    <image src="/image/remote-patient-monitoring-hospital-"></image>
+    background-position: bottom;
+    background-size: 100% 100%;
+    border: 1px solid;
+  }
+  .parallaxtwo h2 {
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-align: center;
+  }
+  
+  .nav-links {
+    font-weight: bold;
+    font-size: 18px;
+    left: 100px;
+  }
+  .parallaxthree {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/Doctors.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 100% 100%;
+    border: 1px solid;
+  }
+  .parallaxthree h2 {
+     position: relative;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    text-align: center;
+  }
+  
 
-ul {
-  list-style: none;
-}
-.active {
-  color: crimson;
-  text-decoration: underline;
-  font-weight: bold;
-  font-size: 18px;
-}
-.logo {
-  font-size: 50px;
-  color: whitesmoke;
-}
-
-.navbar {
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  font-size: 18px;
-  width: 100%;
-  justify-content: space-between;
-  padding: 20px;
-  color: whitesmoke;
-}
-.nav-links {
-  display: flex;
-  align-items: center;
-}
-.nav-links li {
-  margin: 0 30px;
-}
-
-section {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("./image/doctorclinic.jpg");
-  background-attachment: fixed;
-  background-position: bottom;
-  background-size: cover;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.header-content {
-  margin-bottom: 150px;
-  color: whitesmoke;
-  text-align: center;
-}
-.header-content h2 {
-  font-size: 4vmin;
-}
-.line {
-  width: 30%;
-  height: 4px;
-  background: crimson;
-  margin: 2px auto;
-  border-radius: 5px;
-}
-.header-content h1 {
-  font-size: 6vmin;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-.ctn {
-  color: crimson;
-  font-weight: bold;
-  size: 25px;
-}
-
-.btn {
-  margin: 0px;
-  padding: 5px;
-  font-size: 15px;
-  font-weight: bold;
-  color: rgb(183, 74, 74);
-}
-
-.parallaxtwo {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("./image/remote-patient-monitoring-hospital-er.png");
-  background-attachment: fixed;
-  <image src="/image/remote-patient-monitoring-hospital-"></image>
-  background-position: bottom;
-  background-size: 100% 100%;
-  border: 1px solid;
-}
-.parallaxtwo h2 {
-  position: relative;
-  left: 600px;
-  top: 300px;
-  width: 300px;
-  height: 50px;
-  padding: 10px;
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
-.nav-links {
-  font-weight: bold;
-  font-size: 18px;
-  left: 100px;
-}
-.parallaxthree {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("./image/Doctors.jpg");
-  background-attachment: fixed;
-  background-position: bottom;
-  background-size: 100% 100%;
-  border: 1px solid;
-}
-.parallaxthree h2 {
-  position: relative;
-  left: 600px;
-  top: 50px;
-  width: 180px;
-  height: 50px;
-  padding: 10px;
-  background-color: black;
-  color: white;
-  text-align: center;
+.nav-link1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: medium;
+    align-items: center;
+    height: 80vh;
 }
 
 .nav-panel {
-  font-weight: bold;
-  font-size: 15px;
-  top: 150px;
-  left: 80px;
-  position: relative;
+    margin-top: 0 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    height: 80vh;
+    align-items: center;
 }
+
+  ul li {
+    margin-top: 80px;
+    padding: 10px;
+    flex: 1 0 20%;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Helvetica Neue";
+  }
