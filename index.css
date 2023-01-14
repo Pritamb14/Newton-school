@@ -52,7 +52,7 @@
   section {
     width: 100vw;
     height: 100vh;
-    background-image: url("./images/UFH-hospital-canteen-2000x1125.jpg");
+    background-image: url("./image/UFH-hospital-canteen-2000x1125.jpg");
     background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
@@ -100,7 +100,7 @@
   .parallaxtwo {
     width: 100vw;
     height: 100vh;
-    background-image: url("./images/remote-patient-monitoring-hospital-er.png");
+    background-image: url("./image/remote-patient-monitoring-hospital-er.png");
     background-attachment: fixed;
     <image src="/image/remote-patient-monitoring-hospital-"></image>
     background-position: bottom;
@@ -124,7 +124,7 @@
   .parallaxthree {
     width: 100vw;
     height: 100vh;
-    background-image: url("./images/Doctors.jpg");
+    background-image: url("./image/Doctors.jpg");
     background-attachment: fixed;
     background-position: bottom;
     background-size: 100% 100%;
