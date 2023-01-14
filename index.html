@@ -1,4 +1,4 @@
- <!doctype html>
+<!doctype html>
  <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -12,8 +12,14 @@
         <nav class="navbar">
           <h1 class="logo">Primus</h1>
           <ul class="nav-links">
-           <li class="activse"><a href="#"></a>Home</li>
-           <li><a href="#"></a>Services</li>
+           <li class="active"><a href="#"></a>Home</li>
+           <li>
+            <select name="services" id="services">
+                <option value="none" selected disabled hidden>Services</option>
+                <option value="Emergency">Emergency</option>
+                <option value="Ambulance">Ambulance</option>
+                <option value="Helpline">Helpline</option>
+            </select></li>
           <li><a href="#"></a>Doctors</li>
            <li><a href="#"></a>Our Centres</li>
            <li class="ctn"><a href="#"></a>Appointment</li>
@@ -21,6 +27,15 @@
         </nav>
         </header>
         <section>
+            <!-- <form action="/action_page.php">
+                <h1> User Login</h1>
+                <label for="username">Enter Username</label>
+                <input type="text" name="username" id="username"/>
+                <br/>
+                <label for="password">Enter Password</label>
+                <input type="password" name="password" id="password"/>
+                <input type="submit" name="btn login" id="btn login" value="Login"/>
+            </form> -->
         <div class="header-content">
             <h2>One Step To Cure</h2>
             <div class="line"></div>
@@ -31,26 +46,25 @@
 
     <div class="parallaxtwo">
         <h2> Departments</h2>
-        <ul class="nav-links">
-            <li class="activse"><a href="#"></a>Neurology</li>
+        <ul class="nav-link1">
+            <li class="active"><a href="#"></a>Neurology</li>
             <li><a href="#"></a>Medicine</li>
             <li><a href="#"></a>Obstetrics</li>
             <li><a href="#"></a>Eye</li>
-           <li><a href="#"></a>infectious disease</li>
-           <br>
+           <li><a href="#"></a>Infectious disease</li>
             <li><a href="#"></a>ENT</li>
             <li><a href="#"></a>Gynaecology</li>
             <li><a href="#"></a>Dental</li>
             <li><a href="#"></a>Orthopaedics</li>
-            <li><a href="#"></a>cardiology</li>
-            <li><a href="#"></a>nuclear medicine</li>
+            <li><a href="#"></a>Cardiology</li>
+            <li><a href="#"></a>Nuclear medicine</li>
            </ul>
     </div>
 
     <div class="parallaxthree">
-        <h2> Doctor Panel</h2>
+        <h2> Doctors Panel</h2>
         <ul class="nav-panel">
-            <li class="activse"><a href="#"></a> Dr Aikenhead</li><br>
+            <li><a href="#"></a> Dr Aikenhead</li><br>
             <li><a href="#"></a>Dr Mistry </li><br>
             <li><a href="#"></a>Dr Brick Wall</li><br>
             <li><a href="#"></a>Dr Har</li><br>
